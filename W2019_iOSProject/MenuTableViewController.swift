@@ -37,6 +37,10 @@ class MenuTableViewController: UITableViewController  {
             switch indexPath.row {
             case 0:
                 print("Menu Item - Contact")
+               
+                let sb1 = UIStoryboard(name: "Main", bundle: nil)
+                let contactVC = sb1.instantiateViewController(withIdentifier: "SB_Contact") as! ContactViewController
+                self.present(contactVC, animated: true)
             case 1:
                 print("Menu Item - About Us")
                 let sb = UIStoryboard(name: "Main", bundle: nil)

@@ -67,6 +67,9 @@ class LoginViewController: UIViewController {
                     RememberUD.removeObject(forKey: "email")
                     RememberUD.removeObject(forKey: "pwd")
                 }
+                    
+                    
+                    
                 // Redirecting to the other ViewController
                 let sb = UIStoryboard(name: "Main", bundle: nil)
                 let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
