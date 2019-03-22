@@ -441,6 +441,33 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AG-Red.png" translatesAutoresizingMaskIntoConstraints="NO" id="kQe-7t-idZ">
+                                <rect key="frame" x="0.0" y="206" width="187" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nPV-Cx-MqT">
+                                <rect key="frame" x="33" y="418" width="326" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">When it comes to music, we believe that you deserve the best. In today's fast pacing life music has become most important part of our life. So, we have added all kinds of musics where you can download and play the songs online and keep yourself in a relax mode. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="O1v-vo-YGS">
+                                <rect key="frame" x="192" y="196" width="167" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">AG - Aggarwal Gonazlec is a music company that sells all kinds of music records. It is rapidly growing company since 2018. We have great amount of music collections in this app where you can enjoy anytime.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2018. All right are reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSu-Pg-H7v">
+                                <rect key="frame" x="39" y="626" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WwA-KU-i6A"/>
@@ -448,7 +475,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8n-Gy-x0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2090" y="-1160"/>
+            <point key="canvasLocation" x="-2090.4000000000001" y="-1160.8695652173915"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -532,6 +559,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AG-Red.png" width="376" height="277"/>
         <image name="aboutus1.png" width="225" height="226"/>
         <image name="checkout.png" width="225" height="225"/>
         <image name="contact.png" width="191" height="264"/>
@@ -542,6 +570,6 @@
         <image name="map.png" width="520" height="475"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jKy-FM-cGX"/>
+        <segue reference="LCn-id-JAz"/>
     </inferredMetricsTieBreakers>
 </document>
