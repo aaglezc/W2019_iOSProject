@@ -39,6 +39,9 @@ class MenuTableViewController: UITableViewController  {
                 print("Menu Item - Contact")
             case 1:
                 print("Menu Item - About Us")
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let aboutVC = sb.instantiateViewController(withIdentifier: "SB_AboutUs") as! AboutUsViewController
+                self.present(aboutVC, animated: true)
             case 2:
                 print("Menu Item - Log Out")
             default:
