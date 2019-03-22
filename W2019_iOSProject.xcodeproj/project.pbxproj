@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1661C022444B5A0024B2DB /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661BF22444B5A0024B2DB /* contact.png */; };
+		9B1661C222444B610024B2DB /* checkout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661C122444B610024B2DB /* checkout.png */; };
+		9B1661C422444B670024B2DB /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661C322444B670024B2DB /* aboutus.png */; };
+		9B1661C622444B6C0024B2DB /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661C522444B6B0024B2DB /* logout.png */; };
+		9B1661C82244509C0024B2DB /* aboutus1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661C72244509C0024B2DB /* aboutus1.png */; };
+		9B1661CA224450A10024B2DB /* AG-Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661C9224450A10024B2DB /* AG-Red.png */; };
+		9B1661CC2244586A0024B2DB /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */; };
+		9B1661CE2244615E0024B2DB /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1661CD2244615E0024B2DB /* ContactViewController.swift */; };
+		9B1661D02244674B0024B2DB /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661CF2244674B0024B2DB /* fb.png */; };
+		9B1661D222446D3C0024B2DB /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661D122446D3B0024B2DB /* email.png */; };
+		9B1661D4224474330024B2DB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661D3224474330024B2DB /* map.png */; };
+		9B1661D6224474D30024B2DB /* eMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1661D5224474D30024B2DB /* eMailViewController.swift */; };
 		EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB42243F4E200D35D83 /* AppDelegate.swift */; };
 		EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB62243F4E200D35D83 /* LoginViewController.swift */; };
 		EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD6CB82243F4E200D35D83 /* Main.storyboard */; };
@@ -46,6 +58,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B1661BF22444B5A0024B2DB /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		9B1661C122444B610024B2DB /* checkout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkout.png; sourceTree = "<group>"; };
+		9B1661C322444B670024B2DB /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
+		9B1661C522444B6B0024B2DB /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		9B1661C72244509C0024B2DB /* aboutus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus1.png; sourceTree = "<group>"; };
+		9B1661C9224450A10024B2DB /* AG-Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AG-Red.png"; sourceTree = "<group>"; };
+		9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		9B1661CD2244615E0024B2DB /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		9B1661CF2244674B0024B2DB /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		9B1661D122446D3B0024B2DB /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		9B1661D3224474330024B2DB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		9B1661D5224474D30024B2DB /* eMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMailViewController.swift; sourceTree = "<group>"; };
 		EABD6CB12243F4E200D35D83 /* W2019_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W2019_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABD6CB42243F4E200D35D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABD6CB62243F4E200D35D83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +155,9 @@
 				EABD6CC02243F4E300D35D83 /* Info.plist */,
 				EABD6CE22243F94600D35D83 /* MenuTableViewController.swift */,
 				EABD6CE722440E8500D35D83 /* HomeViewController.swift */,
+				9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */,
+				9B1661CD2244615E0024B2DB /* ContactViewController.swift */,
+				9B1661D5224474D30024B2DB /* eMailViewController.swift */,
 			);
 			path = W2019_iOSProject;
 			sourceTree = "<group>";
@@ -156,7 +183,16 @@
 		EABD6CE42243FEB100D35D83 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B1661D122446D3B0024B2DB /* email.png */,
+				9B1661D3224474330024B2DB /* map.png */,
 				EABD6CE52243FEC400D35D83 /* images.png */,
+				9B1661BF22444B5A0024B2DB /* contact.png */,
+				9B1661C72244509C0024B2DB /* aboutus1.png */,
+				9B1661CF2244674B0024B2DB /* fb.png */,
+				9B1661C122444B610024B2DB /* checkout.png */,
+				9B1661C9224450A10024B2DB /* AG-Red.png */,
+				9B1661C522444B6B0024B2DB /* logout.png */,
+				9B1661C322444B670024B2DB /* aboutus.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -282,9 +318,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABD6CBF2243F4E300D35D83 /* LaunchScreen.storyboard in Resources */,
+				9B1661C022444B5A0024B2DB /* contact.png in Resources */,
+				9B1661D4224474330024B2DB /* map.png in Resources */,
 				EABD6CBC2243F4E300D35D83 /* Assets.xcassets in Resources */,
 				EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */,
+				9B1661C422444B670024B2DB /* aboutus.png in Resources */,
 				EABD6CE62243FEC400D35D83 /* images.png in Resources */,
+				9B1661C82244509C0024B2DB /* aboutus1.png in Resources */,
+				9B1661CA224450A10024B2DB /* AG-Red.png in Resources */,
+				9B1661D222446D3C0024B2DB /* email.png in Resources */,
+				9B1661C222444B610024B2DB /* checkout.png in Resources */,
+				9B1661D02244674B0024B2DB /* fb.png in Resources */,
+				9B1661C622444B6C0024B2DB /* logout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,15 +358,18 @@
 				EABD6CEB2244190500D35D83 /* Customer.swift in Sources */,
 				EABD6CE32243F94600D35D83 /* MenuTableViewController.swift in Sources */,
 				EABD6CF922443C4900D35D83 /* Protocols.swift in Sources */,
+				9B1661CC2244586A0024B2DB /* AboutUsViewController.swift in Sources */,
 				EABD6CEF2244193B00D35D83 /* Product.swift in Sources */,
 				EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */,
 				EABD6CF52244198A00D35D83 /* OrderDetails.swift in Sources */,
 				EABD6CED2244192300D35D83 /* ShoppingCar.swift in Sources */,
 				EABD6CFB22443CDF00D35D83 /* Extensions.swift in Sources */,
 				EABD6CF12244195700D35D83 /* Order.swift in Sources */,
+				9B1661D6224474D30024B2DB /* eMailViewController.swift in Sources */,
 				EABD6CE822440E8500D35D83 /* HomeViewController.swift in Sources */,
 				EABD6CF32244197000D35D83 /* ShippingInfo.swift in Sources */,
 				EABD6CF722443BFC00D35D83 /* User.swift in Sources */,
+				9B1661CE2244615E0024B2DB /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

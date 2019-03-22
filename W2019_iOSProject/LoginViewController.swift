@@ -53,6 +53,8 @@ class LoginViewController: UIViewController {
         {
             if pwd == "123"
             {
+                if swRemember.isOn == true
+                {
                 // Save data using user defaults
                 let RememberUD = UserDefaults.standard
                 if swRemember.isOn == true
@@ -65,6 +67,9 @@ class LoginViewController: UIViewController {
                     RememberUD.removeObject(forKey: "email")
                     RememberUD.removeObject(forKey: "pwd")
                 }
+                    
+                    
+                    
                 // Redirecting to the other ViewController
                 let sb = UIStoryboard(name: "Main", bundle: nil)
                 let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
@@ -73,13 +78,25 @@ class LoginViewController: UIViewController {
             }
             
         }
+    }
+            
         else
         {
             print("User e-mail is not registered in the system.")
-            if swRemember.isOn == false
+            
+            let alert = UIAlertController(title: "Invalid", message: "Email or Password is wrong. Please Try Again!", preferredStyle: .alert)
+            
+            let addMessage = UIAlertAction(title: "OK", style: .default, handler: nil)
+            
+            alert.addAction(addMessage)
+            self.present(alert, animated: true, completion: nil)
+            
+            
+            
+         /*   if swRemember.isOn == false
             {
                 
-            }
+            }*/
         }
         
         
