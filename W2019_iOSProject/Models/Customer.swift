@@ -160,7 +160,7 @@ class Customer: User
         self._orders.append(order)
         for s in self._shoppingCart
         {
-            let od = OrderDetails(orderId: s.productId.ProductId, productId: s.productId.ProductId, productName: s.productId.ProductName, quantity: s.quantity, unitCost: Float(s.productId.Price))
+            let od = OrderDetails(orderId: s.productId.productId, productId: s.productId.productId, productName: s.productId.productName, quantity: s.quantity, unitCost: Float(s.productId.Price))
             order.orderDetalis.append(od)
         }
         
@@ -178,4 +178,3 @@ class Customer: User
         print("Shipping Information: \(self._shippingInfo!)")
     }
 }
-

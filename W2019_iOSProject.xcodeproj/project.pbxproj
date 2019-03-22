@@ -38,6 +38,15 @@
 		EABD6CF722443BFC00D35D83 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CF622443BFC00D35D83 /* User.swift */; };
 		EABD6CF922443C4900D35D83 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CF822443C4900D35D83 /* Protocols.swift */; };
 		EABD6CFB22443CDF00D35D83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CFA22443CDE00D35D83 /* Extensions.swift */; };
+		EABD6D232245525100D35D83 /* gunsr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D1E2245525000D35D83 /* gunsr.jpg */; };
+		EABD6D242245525100D35D83 /* rods.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D1F2245525000D35D83 /* rods.jpeg */; };
+		EABD6D252245525100D35D83 /* muse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D202245525000D35D83 /* muse.jpg */; };
+		EABD6D262245525100D35D83 /* ledz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D212245525000D35D83 /* ledz.jpg */; };
+		EABD6D272245525100D35D83 /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D222245525100D35D83 /* mm.jpg */; };
+		EABD6D29224562D200D35D83 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D28224562D200D35D83 /* ProductsViewController.swift */; };
+		EABD6D2B224566A100D35D83 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */; };
+		EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2C22456A6100D35D83 /* disk2.jpeg */; };
+		EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2D22456A6200D35D83 /* disk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +104,15 @@
 		EABD6CF622443BFC00D35D83 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EABD6CF822443C4900D35D83 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		EABD6CFA22443CDE00D35D83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EABD6D1E2245525000D35D83 /* gunsr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunsr.jpg; sourceTree = "<group>"; };
+		EABD6D1F2245525000D35D83 /* rods.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rods.jpeg; sourceTree = "<group>"; };
+		EABD6D202245525000D35D83 /* muse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muse.jpg; sourceTree = "<group>"; };
+		EABD6D212245525000D35D83 /* ledz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ledz.jpg; sourceTree = "<group>"; };
+		EABD6D222245525100D35D83 /* mm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm.jpg; sourceTree = "<group>"; };
+		EABD6D28224562D200D35D83 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		EABD6D2C22456A6100D35D83 /* disk2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk2.jpeg; sourceTree = "<group>"; };
+		EABD6D2D22456A6200D35D83 /* disk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,14 +165,16 @@
 			children = (
 				EABD6CE9224418A200D35D83 /* Models */,
 				EABD6CE42243FEB100D35D83 /* Images */,
-				EABD6CB42243F4E200D35D83 /* AppDelegate.swift */,
-				EABD6CB62243F4E200D35D83 /* LoginViewController.swift */,
 				EABD6CB82243F4E200D35D83 /* Main.storyboard */,
+				EABD6CB42243F4E200D35D83 /* AppDelegate.swift */,
 				EABD6CBB2243F4E300D35D83 /* Assets.xcassets */,
 				EABD6CBD2243F4E300D35D83 /* LaunchScreen.storyboard */,
 				EABD6CC02243F4E300D35D83 /* Info.plist */,
+				EABD6CB62243F4E200D35D83 /* LoginViewController.swift */,
 				EABD6CE22243F94600D35D83 /* MenuTableViewController.swift */,
 				EABD6CE722440E8500D35D83 /* HomeViewController.swift */,
+				EABD6D28224562D200D35D83 /* ProductsViewController.swift */,
+				EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */,
 				9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */,
 				9B1661CD2244615E0024B2DB /* ContactViewController.swift */,
 				9B1661D5224474D30024B2DB /* eMailViewController.swift */,
@@ -183,9 +203,16 @@
 		EABD6CE42243FEB100D35D83 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EABD6D2D22456A6200D35D83 /* disk.jpg */,
+				EABD6D2C22456A6100D35D83 /* disk2.jpeg */,
+				EABD6D1E2245525000D35D83 /* gunsr.jpg */,
+				EABD6D212245525000D35D83 /* ledz.jpg */,
+				EABD6D222245525100D35D83 /* mm.jpg */,
+				EABD6D202245525000D35D83 /* muse.jpg */,
+				EABD6D1F2245525000D35D83 /* rods.jpeg */,
+				EABD6CE52243FEC400D35D83 /* images.png */,
 				9B1661D122446D3B0024B2DB /* email.png */,
 				9B1661D3224474330024B2DB /* map.png */,
-				EABD6CE52243FEC400D35D83 /* images.png */,
 				9B1661BF22444B5A0024B2DB /* contact.png */,
 				9B1661C72244509C0024B2DB /* aboutus1.png */,
 				9B1661CF2244674B0024B2DB /* fb.png */,
@@ -318,10 +345,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABD6CBF2243F4E300D35D83 /* LaunchScreen.storyboard in Resources */,
+				EABD6D252245525100D35D83 /* muse.jpg in Resources */,
 				9B1661C022444B5A0024B2DB /* contact.png in Resources */,
+				EABD6D272245525100D35D83 /* mm.jpg in Resources */,
+				EABD6D262245525100D35D83 /* ledz.jpg in Resources */,
 				9B1661D4224474330024B2DB /* map.png in Resources */,
+				EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */,
+				EABD6D232245525100D35D83 /* gunsr.jpg in Resources */,
 				EABD6CBC2243F4E300D35D83 /* Assets.xcassets in Resources */,
+				EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */,
 				EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */,
+				EABD6D242245525100D35D83 /* rods.jpeg in Resources */,
 				9B1661C422444B670024B2DB /* aboutus.png in Resources */,
 				EABD6CE62243FEC400D35D83 /* images.png in Resources */,
 				9B1661C82244509C0024B2DB /* aboutus1.png in Resources */,
@@ -355,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */,
+				EABD6D29224562D200D35D83 /* ProductsViewController.swift in Sources */,
 				EABD6CEB2244190500D35D83 /* Customer.swift in Sources */,
 				EABD6CE32243F94600D35D83 /* MenuTableViewController.swift in Sources */,
 				EABD6CF922443C4900D35D83 /* Protocols.swift in Sources */,
@@ -364,6 +399,7 @@
 				EABD6CF52244198A00D35D83 /* OrderDetails.swift in Sources */,
 				EABD6CED2244192300D35D83 /* ShoppingCar.swift in Sources */,
 				EABD6CFB22443CDF00D35D83 /* Extensions.swift in Sources */,
+				EABD6D2B224566A100D35D83 /* ProductTableViewCell.swift in Sources */,
 				EABD6CF12244195700D35D83 /* Order.swift in Sources */,
 				9B1661D6224474D30024B2DB /* eMailViewController.swift in Sources */,
 				EABD6CE822440E8500D35D83 /* HomeViewController.swift in Sources */,

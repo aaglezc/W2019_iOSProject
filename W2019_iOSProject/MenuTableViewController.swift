@@ -28,6 +28,10 @@ class MenuTableViewController: UITableViewController  {
                 self.present(homeVC, animated: true)
             case 1:
                 print("Menu Item - Records")
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let RecVC = sb.instantiateViewController(withIdentifier: "SB_Products") as! ProductsViewController
+                self.present(RecVC, animated: true)
+                
             case 2:
                 print("Menu Item - Check Out")
             default:

@@ -100,7 +100,7 @@ class ShoppingCart :IDisplay
     {
         print("************Shopping Cart Details*************")
         print("Cart ID: \(self._cartId!)")
-        print("Product ID: \(String(describing: self._productId!.ProductId)) - \(String(describing: self._productId!.ProductName))")
+        print("Product ID: \(String(describing: self._productId!.productId)) - \(String(describing: self._productId!.productName))")
         print("Quantity: \(String(describing: self._quantity!))")
         print("Date Added: \(self._dateAdded.DateFormat())")
         
