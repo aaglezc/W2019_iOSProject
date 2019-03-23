@@ -19,6 +19,11 @@
 		9B1661D222446D3C0024B2DB /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661D122446D3B0024B2DB /* email.png */; };
 		9B1661D4224474330024B2DB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1661D3224474330024B2DB /* map.png */; };
 		9B1661D6224474D30024B2DB /* eMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1661D5224474D30024B2DB /* eMailViewController.swift */; };
+		EA9D94C22245DDEE0081677D /* shopcart.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94C12245DDED0081677D /* shopcart.png */; };
+		EA9D94C42245E66F0081677D /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D94C32245E66F0081677D /* CheckOutViewController.swift */; };
+		EA9D94C62245EB5C0081677D /* CheckOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D94C52245EB5C0081677D /* CheckOutTableViewCell.swift */; };
+		EA9D94C8224607960081677D /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D94C7224607960081677D /* PlaceOrderViewController.swift */; };
+		EA9D94CA22460AD60081677D /* PlaceOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D94C922460AD60081677D /* PlaceOrderTableViewCell.swift */; };
 		EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB42243F4E200D35D83 /* AppDelegate.swift */; };
 		EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB62243F4E200D35D83 /* LoginViewController.swift */; };
 		EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD6CB82243F4E200D35D83 /* Main.storyboard */; };
@@ -48,6 +53,8 @@
 		EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2C22456A6100D35D83 /* disk2.jpeg */; };
 		EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2D22456A6200D35D83 /* disk.jpg */; };
 		EABD6D352245BD9100D35D83 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */; };
+		EABD6D3B2245CE3D00D35D83 /* 01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D392245CE3C00D35D83 /* 01.m4a */; };
+		EABD6D3C2245CE3D00D35D83 /* 08 Bit By Bit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,11 @@
 		9B1661D122446D3B0024B2DB /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		9B1661D3224474330024B2DB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		9B1661D5224474D30024B2DB /* eMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMailViewController.swift; sourceTree = "<group>"; };
+		EA9D94C12245DDED0081677D /* shopcart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopcart.png; sourceTree = "<group>"; };
+		EA9D94C32245E66F0081677D /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		EA9D94C52245EB5C0081677D /* CheckOutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutTableViewCell.swift; sourceTree = "<group>"; };
+		EA9D94C7224607960081677D /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		EA9D94C922460AD60081677D /* PlaceOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderTableViewCell.swift; sourceTree = "<group>"; };
 		EABD6CB12243F4E200D35D83 /* W2019_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W2019_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABD6CB42243F4E200D35D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABD6CB62243F4E200D35D83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +127,8 @@
 		EABD6D2C22456A6100D35D83 /* disk2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk2.jpeg; sourceTree = "<group>"; };
 		EABD6D2D22456A6200D35D83 /* disk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk.jpg; sourceTree = "<group>"; };
 		EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		EABD6D392245CE3C00D35D83 /* 01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01.m4a; sourceTree = SOURCE_ROOT; };
+		EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Bit By Bit.m4a"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +179,7 @@
 		EABD6CB32243F4E200D35D83 /* W2019_iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				EABD6D362245CAB700D35D83 /* mp3 */,
 				EABD6CE9224418A200D35D83 /* Models */,
 				EABD6CE42243FEB100D35D83 /* Images */,
 				EABD6CB82243F4E200D35D83 /* Main.storyboard */,
@@ -178,6 +193,10 @@
 				EABD6D28224562D200D35D83 /* ProductsViewController.swift */,
 				EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */,
 				EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */,
+				EA9D94C32245E66F0081677D /* CheckOutViewController.swift */,
+				EA9D94C52245EB5C0081677D /* CheckOutTableViewCell.swift */,
+				EA9D94C7224607960081677D /* PlaceOrderViewController.swift */,
+				EA9D94C922460AD60081677D /* PlaceOrderTableViewCell.swift */,
 				9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */,
 				9B1661CD2244615E0024B2DB /* ContactViewController.swift */,
 				9B1661D5224474D30024B2DB /* eMailViewController.swift */,
@@ -223,6 +242,7 @@
 				9B1661C9224450A10024B2DB /* AG-Red.png */,
 				9B1661C522444B6B0024B2DB /* logout.png */,
 				9B1661C322444B670024B2DB /* aboutus.png */,
+				EA9D94C12245DDED0081677D /* shopcart.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -241,6 +261,15 @@
 				EABD6CFA22443CDE00D35D83 /* Extensions.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EABD6D362245CAB700D35D83 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				EABD6D392245CE3C00D35D83 /* 01.m4a */,
+				EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */,
+			);
+			path = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +384,7 @@
 				9B1661D4224474330024B2DB /* map.png in Resources */,
 				EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */,
 				EABD6D232245525100D35D83 /* gunsr.jpg in Resources */,
+				EABD6D3C2245CE3D00D35D83 /* 08 Bit By Bit.m4a in Resources */,
 				EABD6CBC2243F4E300D35D83 /* Assets.xcassets in Resources */,
 				EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */,
 				EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */,
@@ -365,8 +395,10 @@
 				9B1661CA224450A10024B2DB /* AG-Red.png in Resources */,
 				9B1661D222446D3C0024B2DB /* email.png in Resources */,
 				9B1661C222444B610024B2DB /* checkout.png in Resources */,
+				EA9D94C22245DDEE0081677D /* shopcart.png in Resources */,
 				9B1661D02244674B0024B2DB /* fb.png in Resources */,
 				9B1661C622444B6C0024B2DB /* logout.png in Resources */,
+				EABD6D3B2245CE3D00D35D83 /* 01.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9D94C62245EB5C0081677D /* CheckOutTableViewCell.swift in Sources */,
 				EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */,
 				EABD6D29224562D200D35D83 /* ProductsViewController.swift in Sources */,
 				EABD6CEB2244190500D35D83 /* Customer.swift in Sources */,
@@ -398,6 +431,7 @@
 				EABD6CF922443C4900D35D83 /* Protocols.swift in Sources */,
 				EABD6D352245BD9100D35D83 /* ProductDetailsViewController.swift in Sources */,
 				9B1661CC2244586A0024B2DB /* AboutUsViewController.swift in Sources */,
+				EA9D94CA22460AD60081677D /* PlaceOrderTableViewCell.swift in Sources */,
 				EABD6CEF2244193B00D35D83 /* Product.swift in Sources */,
 				EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */,
 				EABD6CF52244198A00D35D83 /* OrderDetails.swift in Sources */,
@@ -407,7 +441,9 @@
 				EABD6CF12244195700D35D83 /* Order.swift in Sources */,
 				9B1661D6224474D30024B2DB /* eMailViewController.swift in Sources */,
 				EABD6CE822440E8500D35D83 /* HomeViewController.swift in Sources */,
+				EA9D94C42245E66F0081677D /* CheckOutViewController.swift in Sources */,
 				EABD6CF32244197000D35D83 /* ShippingInfo.swift in Sources */,
+				EA9D94C8224607960081677D /* PlaceOrderViewController.swift in Sources */,
 				EABD6CF722443BFC00D35D83 /* User.swift in Sources */,
 				9B1661CE2244615E0024B2DB /* ContactViewController.swift in Sources */,
 			);

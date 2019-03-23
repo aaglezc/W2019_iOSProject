@@ -33,6 +33,11 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         products.append(Product(productId: 4, productName: "Madness", Price: 12.0, author: "Muse", year: 2014, mp3: "", img: "muse.jpg"))
         products.append(Product(productId: 5, productName: "Romance", Price: 9.0, author: "Rod Steward", year: 2014, mp3: "", img: "rods.jpeg"))
         
+        for sc in customer.shoppingCart
+        {
+            print(sc.display())
+        }
+        
     }
     
     

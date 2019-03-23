@@ -12,10 +12,25 @@ class MenuTableViewController: UITableViewController  {
 
     var customer : Customer = Customer()
     
+    
+    @IBOutlet weak var BtnUser: UIBarButtonItem!
+    
+    @IBOutlet weak var btnCart: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("-MenuView-")
 
+        print(customer.custName)
+        
+        for sc in customer.shoppingCart
+        {
+            print(sc.display())
+        }
         // Do any additional setup after loading the view.
+        BtnUser.title = customer.custName
+        btnCart.title = "Cart (\(customer.shoppingCart.count))"
+        
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -36,6 +51,11 @@ class MenuTableViewController: UITableViewController  {
                 
             case 2:
                 print("Menu Item - Check Out")
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let CheckVC = sb.instantiateViewController(withIdentifier: "SB_CheckOut") as! CheckOutViewController
+                CheckVC.customerCO = self.customer
+                self.present(CheckVC, animated: true)
+                
             default:
                 print("Invalid Option")
             }
@@ -60,6 +80,10 @@ class MenuTableViewController: UITableViewController  {
         }
     }
 
+    @IBAction func btnCartCheckOut(_ sender: UIBarButtonItem) {
+        
+        
+    }
     /*
     // MARK: - Navigation
 

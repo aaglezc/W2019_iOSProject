@@ -10,15 +10,15 @@ import Foundation
 
 class ShoppingCart :IDisplay
 {
-    private var _cartId: Int?
-    private var _productId: Product?
-    private var _quantity: Int?
+    private var _cartId: Int
+    private var _productId: Product
+    private var _quantity: Int
     private var _dateAdded: Date
     
     var cartId: Int
     {
         get {
-            return _cartId!
+            return _cartId
         }
         set{
             _cartId = newValue
@@ -27,7 +27,7 @@ class ShoppingCart :IDisplay
     var productId: Product
     {
         get {
-            return _productId!
+            return _productId
         }
         set{
             _productId = newValue
@@ -36,7 +36,7 @@ class ShoppingCart :IDisplay
     var quantity: Int
     {
         get {
-            return _quantity!
+            return _quantity
         }
         set{
             _quantity = newValue
@@ -71,7 +71,7 @@ class ShoppingCart :IDisplay
     
     func addCartItem(customer : Customer)
     {
-        let dd = ShoppingCart(cartId: self._cartId!, productId: self._productId!, quantity: self._quantity!, dateAdded: self._dateAdded)
+        let dd = ShoppingCart(cartId: self._cartId, productId: self._productId, quantity: self._quantity, dateAdded: self._dateAdded)
         customer.shoppingCart.append(dd)
     }
     
@@ -90,18 +90,19 @@ class ShoppingCart :IDisplay
         return false
     }
     
-    func cartDetails()
+    func SubTotal() -> Double
     {
-        
+       let tot = (Double(self._quantity) * self._productId.Price)
+        return tot
     }
     
     
     func display()
     {
         print("************Shopping Cart Details*************")
-        print("Cart ID: \(self._cartId!)")
-        print("Product ID: \(String(describing: self._productId!.productId)) - \(String(describing: self._productId!.productName))")
-        print("Quantity: \(String(describing: self._quantity!))")
+        print("Cart ID: \(self._cartId)")
+        print("Product ID: \(String(describing: self._productId.productId)) - \(String(describing: self._productId.productName))")
+        print("Quantity: \(String(describing: self._quantity))")
         print("Date Added: \(self._dateAdded.DateFormat())")
         
         
