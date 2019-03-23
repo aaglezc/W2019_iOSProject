@@ -11,13 +11,23 @@ import UIKit
 class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
     var customerPO : Customer = Customer()
+    var gT : Float = 0
 
     @IBOutlet weak var tvOrder: UITableView!
     
     @IBOutlet weak var lblTot: UILabel!
     @IBOutlet weak var lblGTot: UILabel!
     @IBOutlet weak var lblItems: UILabel!
+    @IBOutlet weak var lblMsg: UILabel!
     
+    
+    @IBOutlet weak var btnPlaceOrder: UIBarButtonItem!
+    @IBOutlet weak var btnCancel: UIBarButtonItem!
+    
+    
+    @IBOutlet weak var txtType: UITextField!
+    @IBOutlet weak var txtRegion: UITextField!
+    @IBOutlet weak var txtCost: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +46,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
             }
             //10.- customer place the order for shipping
             gt = o.CalcGrandTotal()
+            self.gT = gt
             print("\n**************************************************")
             print("Order Grand Total : \(gt.currencyformat())")
             print("**************************************************")
@@ -73,6 +84,29 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         return 120.0
     }
 
+    @IBAction func btnConfirm(_ sender: UIBarButtonItem) {
+        let sType = self.txtType.text
+        let sRegion = self.txtRegion.text
+        let sCost = self.txtCost.text
+        
+        let gTot = self.gT + Float(sCost!)!
+        self.lblGTot.text = "Grand Total: CAD $\(gTot)"
+        
+        self.lblMsg.text = "Order Complted"
+        self.btnPlaceOrder.isEnabled = false
+        self.txtType.isEnabled = false
+        self.txtRegion.isEnabled = false
+        self.txtCost.isEnabled = false
+        
+        self.btnCancel.title = "Menu"
+        
+        
+        
+        
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

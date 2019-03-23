@@ -31,8 +31,7 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
         
         lblItems.text = "Total Items :\(customerCO.shoppingCart.count)"
       
-        lblAmount.text = "Total Amount:\(self.amount)"
-        
+    
     }
     
     
@@ -50,9 +49,8 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
         productCell.lblQty.text = "\(Item.quantity)"
         let tot = Double(Item.quantity)*Item.productId.Price
         print(tot)
-        productCell.lblTot.text = "\(tot)"
+        productCell.lblTot.text = "$ \(tot)"
         
-        self.lblAmount.text = "Total Amount : \(self.amount)"
 
         return productCell
     }
@@ -63,6 +61,7 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
         {
             //let user = userArray[indexPath.row]
             customerCO.shoppingCart.remove(at: indexPath.row)
+            self.lblItems.text = "Total Items: \(customerCO.shoppingCart.count)"
            
             
         }
