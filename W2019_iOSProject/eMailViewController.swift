@@ -36,6 +36,7 @@ class eMailViewController: UIViewController, MFMailComposeViewControllerDelegate
             print("Email Configured")
             let emailVC = MFMailComposeViewController()
             emailVC.mailComposeDelegate = self
+           // emailVC.setToRecipients(["ag_musicrecords@gmail.com"])
             emailVC.setSubject(subjectText.text!)
             
             
