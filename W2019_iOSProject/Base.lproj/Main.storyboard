@@ -171,7 +171,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4aV-sY-qap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1175.2" y="-1910.1949025487258"/>
+            <point key="canvasLocation" x="-3322" y="-1105"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="I2U-tx-qhn">
@@ -249,7 +249,7 @@
                     <state key="normal" title="Button"/>
                 </button>
             </objects>
-            <point key="canvasLocation" x="-1218" y="-1136"/>
+            <point key="canvasLocation" x="-1607" y="-1881"/>
         </scene>
         <!--Mail View Controller-->
         <scene sceneID="AJy-OK-JZa">
@@ -314,7 +314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="htV-Ni-SCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9" y="-1988"/>
+            <point key="canvasLocation" x="-777" y="-1881"/>
         </scene>
         <!--About Us View Controller-->
         <scene sceneID="C9u-tA-FQD">
@@ -346,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mT6-eo-3I3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2134" y="-319"/>
+            <point key="canvasLocation" x="-2415" y="-1105"/>
         </scene>
         <!--Products View Controller-->
         <scene sceneID="eMj-rH-mO6">
@@ -432,7 +432,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MdQ-zb-agK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-370" y="-1137"/>
+            <point key="canvasLocation" x="-1607" y="-1105"/>
+        </scene>
+        <!--Product Details View Controller-->
+        <scene sceneID="p79-NR-6H5">
+            <objects>
+                <viewController storyboardIdentifier="SB_ProductDetails" id="6Uq-Ms-dz0" customClass="ProductDetailsViewController" customModule="W2019_iOSProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AYq-KX-BKE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mVv-t1-hc0">
+                                <rect key="frame" x="26" y="49" width="322" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOK-wP-t7f">
+                                <rect key="frame" x="26" y="295" width="322" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0no-EK-PXK">
+                                <rect key="frame" x="26" y="324" width="322" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWA-V7-0Pw">
+                                <rect key="frame" x="26" y="353" width="220" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoG-hZ-cPd">
+                                <rect key="frame" x="26" y="382" width="220" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="A4J-Qu-anZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgCover" destination="mVv-t1-hc0" id="dj2-Vx-Fcj"/>
+                        <outlet property="lblAuthor" destination="0no-EK-PXK" id="LV5-Fa-msG"/>
+                        <outlet property="lblPrice" destination="NoG-hZ-cPd" id="wdu-Zk-vGs"/>
+                        <outlet property="lblTitle" destination="AOK-wP-t7f" id="pQ3-xo-QMw"/>
+                        <outlet property="lblYear" destination="IWA-V7-0Pw" id="J9G-Qz-x9f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lK3-OP-nfw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778.39999999999998" y="-1104.1979010494754"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="6cJ-9t-GhR">
@@ -493,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8n-Gy-x0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2090.4000000000001" y="-1160.8695652173915"/>
+            <point key="canvasLocation" x="-2415" y="-1881"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -576,7 +632,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2089" y="-1910"/>
+            <point key="canvasLocation" x="-3322" y="-1881"/>
         </scene>
     </scenes>
     <resources>
@@ -591,6 +647,6 @@
         <image name="map.png" width="520" height="475"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hE9-6X-pgH"/>
+        <segue reference="jKy-FM-cGX"/>
     </inferredMetricsTieBreakers>
 </document>

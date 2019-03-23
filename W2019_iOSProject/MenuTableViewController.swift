@@ -10,6 +10,8 @@ import UIKit
 
 class MenuTableViewController: UITableViewController  {
 
+    var customer : Customer = Customer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

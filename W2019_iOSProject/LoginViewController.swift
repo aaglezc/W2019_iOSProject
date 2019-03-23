@@ -14,6 +14,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var txtPwd: UITextField!
     @IBOutlet weak var swRemember: UISwitch!
     
+    var customer : Customer = Customer()
+    
     
     
     
@@ -23,6 +25,7 @@ class LoginViewController: UIViewController {
         // Saving user defaults variables
         
         let RememberDefault = UserDefaults.standard
+        //self.customer = Customer()
         
         
         if let email = RememberDefault.string(forKey: "email")
@@ -55,30 +58,36 @@ class LoginViewController: UIViewController {
             {
                 if swRemember.isOn == true
                 {
-                // Save data using user defaults
-                let RememberUD = UserDefaults.standard
-                if swRemember.isOn == true
-                {
-                    RememberUD.set(email, forKey: "email")
-                    RememberUD.set(pwd, forKey: "pwd")
+                    // Save data using user defaults
+                    let RememberUD = UserDefaults.standard
+                    if swRemember.isOn == true
+                    {
+                        RememberUD.set(email, forKey: "email")
+                        RememberUD.set(pwd, forKey: "pwd")
+                    }
+                    else
+                    {
+                        RememberUD.removeObject(forKey: "email")
+                        RememberUD.removeObject(forKey: "pwd")
+                    }
+                    
+                    self.customer.email = email!
+                    self.customer.password = pwd!
+                    self.customer.custName = "Arthur G."
+                    
+                    // Redirecting to the other ViewController
+                    let sb = UIStoryboard(name: "Main", bundle: nil)
+                    
+                    let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
+                    
+                    menuVC.customer = self.customer
+                    
+                    self.present(menuVC, animated: true)
+                    
                 }
-                else
-                {
-                    RememberUD.removeObject(forKey: "email")
-                    RememberUD.removeObject(forKey: "pwd")
-                }
-                    
-                    
-                    
-                // Redirecting to the other ViewController
-                let sb = UIStoryboard(name: "Main", bundle: nil)
-                let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
-                self.present(menuVC, animated: true)
                 
             }
-            
         }
-    }
             
         else
         {
@@ -92,17 +101,13 @@ class LoginViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
             
             
-            
-         /*   if swRemember.isOn == false
-            {
-                
-            }*/
+        
         }
         
         
     }
     
-
+    
 
 }
 

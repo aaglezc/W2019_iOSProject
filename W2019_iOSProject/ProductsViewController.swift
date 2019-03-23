@@ -10,27 +10,29 @@ import UIKit
 
 class ProductsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var customer : Customer = Customer()
     
-  
     var products : [Product] = []
-
+    
     @IBOutlet weak var tvProducts: UITableView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         tvProducts.delegate = self
         tvProducts.dataSource = self
+        
+        print("Customer from ProductsViewController - \(customer.custName)")
         
         products.append(Product(productId: 1, productName: "Stiches", Price: 10.0, author: "Mother Mother", year: 2008, mp3: "", img: "mm.jpg"))
         products.append(Product(productId: 2, productName: "Guns&Roses", Price: 10.0, author: "Guns&Roses", year: 1985, mp3: "", img: "gunsr.jpg"))
         products.append(Product(productId: 3, productName: "Led Zepellin II", Price: 12.0, author: "Led Zepelin", year: 1976, mp3: "", img: "ledz.jpg"))
         products.append(Product(productId: 4, productName: "Madness", Price: 12.0, author: "Muse", year: 2014, mp3: "", img: "muse.jpg"))
         products.append(Product(productId: 5, productName: "Romance", Price: 9.0, author: "Rod Steward", year: 2014, mp3: "", img: "rods.jpeg"))
-
+        
     }
     
     
@@ -57,7 +59,22 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150.0
     }
-
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        print("Deselected :(",products[indexPath.row].author)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        print("Selected :)",products[indexPath.row].author)
+        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let PrDetVC = sb.instantiateViewController(withIdentifier: "SB_ProductDetails") as! ProductDetailsViewController
+        PrDetVC.customer = customer
+        PrDetVC.product = products[indexPath.row]
+        
+        self.present(PrDetVC, animated: true)
+    }
     /*
     // MARK: - Navigation
 

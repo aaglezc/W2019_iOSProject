@@ -47,6 +47,7 @@
 		EABD6D2B224566A100D35D83 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */; };
 		EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2C22456A6100D35D83 /* disk2.jpeg */; };
 		EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2D22456A6200D35D83 /* disk.jpg */; };
+		EABD6D352245BD9100D35D83 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		EABD6D2C22456A6100D35D83 /* disk2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk2.jpeg; sourceTree = "<group>"; };
 		EABD6D2D22456A6200D35D83 /* disk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk.jpg; sourceTree = "<group>"; };
+		EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,15 +168,16 @@
 				EABD6CE9224418A200D35D83 /* Models */,
 				EABD6CE42243FEB100D35D83 /* Images */,
 				EABD6CB82243F4E200D35D83 /* Main.storyboard */,
+				EABD6CBD2243F4E300D35D83 /* LaunchScreen.storyboard */,
 				EABD6CB42243F4E200D35D83 /* AppDelegate.swift */,
 				EABD6CBB2243F4E300D35D83 /* Assets.xcassets */,
-				EABD6CBD2243F4E300D35D83 /* LaunchScreen.storyboard */,
 				EABD6CC02243F4E300D35D83 /* Info.plist */,
 				EABD6CB62243F4E200D35D83 /* LoginViewController.swift */,
 				EABD6CE22243F94600D35D83 /* MenuTableViewController.swift */,
 				EABD6CE722440E8500D35D83 /* HomeViewController.swift */,
 				EABD6D28224562D200D35D83 /* ProductsViewController.swift */,
 				EABD6D2A224566A100D35D83 /* ProductTableViewCell.swift */,
+				EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */,
 				9B1661CB2244586A0024B2DB /* AboutUsViewController.swift */,
 				9B1661CD2244615E0024B2DB /* ContactViewController.swift */,
 				9B1661D5224474D30024B2DB /* eMailViewController.swift */,
@@ -393,6 +396,7 @@
 				EABD6CEB2244190500D35D83 /* Customer.swift in Sources */,
 				EABD6CE32243F94600D35D83 /* MenuTableViewController.swift in Sources */,
 				EABD6CF922443C4900D35D83 /* Protocols.swift in Sources */,
+				EABD6D352245BD9100D35D83 /* ProductDetailsViewController.swift in Sources */,
 				9B1661CC2244586A0024B2DB /* AboutUsViewController.swift in Sources */,
 				EABD6CEF2244193B00D35D83 /* Product.swift in Sources */,
 				EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */,
