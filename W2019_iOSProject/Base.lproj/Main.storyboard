@@ -482,6 +482,7 @@
                         <viewLayoutGuide key="safeArea" id="UXE-eH-DJq"/>
                     </view>
                     <connections>
+                        <outlet property="btnPlaceOrder" destination="tTi-Lt-zqS" id="y6r-la-lyn"/>
                         <outlet property="lblItems" destination="AE1-Zq-eoT" id="jz6-Sh-SDu"/>
                         <outlet property="tvItems" destination="CJ8-1w-V0B" id="ybj-Bh-ljI"/>
                     </connections>

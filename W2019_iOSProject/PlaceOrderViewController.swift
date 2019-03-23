@@ -100,7 +100,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         
         self.btnCancel.title = "Menu"
         
-        
+        self.customerPO.display()
         
         
         

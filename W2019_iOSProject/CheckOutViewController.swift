@@ -20,6 +20,7 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var lblItems: UILabel!
     @IBOutlet weak var lblAmount: UILabel!
     
+    @IBOutlet weak var btnPlaceOrder: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +30,17 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
         tvItems.delegate = self
         tvItems.dataSource = self
         
-        lblItems.text = "Total Items :\(customerCO.shoppingCart.count)"
-      
+        let totItems = customerCO.shoppingCart.count
+        lblItems.text = "Total Items :\(totItems)"
+        
+        if totItems == 0
+        {
+            btnPlaceOrder.isEnabled = false
+        }
+        else
+        {
+            btnPlaceOrder.isEnabled = true
+        }
     
     }
     
@@ -61,8 +71,17 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
         {
             //let user = userArray[indexPath.row]
             customerCO.shoppingCart.remove(at: indexPath.row)
-            self.lblItems.text = "Total Items: \(customerCO.shoppingCart.count)"
+            let totItems = customerCO.shoppingCart.count
+            self.lblItems.text = "Total Items: \(totItems)"
            
+            if totItems == 0
+            {
+                btnPlaceOrder.isEnabled = false
+            }
+            else
+            {
+                btnPlaceOrder.isEnabled = true
+            }
             
         }
         tableView.reloadData()
@@ -93,7 +112,7 @@ class CheckOutViewController: UIViewController, UITableViewDelegate, UITableView
                 od.display()
             }
             //10.- customer place the order for shipping
-            o.placeOrder()
+           // o.placeOrder()
             gt = o.CalcGrandTotal()
             print("\n**************************************************")
             print("Order Grand Total : \(gt.currencyformat())")

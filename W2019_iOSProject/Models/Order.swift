@@ -120,12 +120,12 @@ class Order : IDisplay
         
     }
     
-    func placeOrder()
+    func placeOrder(shippingId: Int, shippingType: String, shippingCost: Float, shippingRegionId: Int)
     {
-        self._shippingInfo.shippingCost = 50
-        self._shippingInfo.shippingRegionId = 4
-        self._shippingInfo.shippingType = "Express"
-        self._shippingInfo.shippingId = 1
+        self._shippingInfo.shippingCost = shippingCost
+        self._shippingInfo.shippingRegionId = shippingRegionId
+        self._shippingInfo.shippingType = shippingType
+        self._shippingInfo.shippingId = shippingId
         
     }
     
