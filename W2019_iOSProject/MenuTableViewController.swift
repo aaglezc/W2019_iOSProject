@@ -47,6 +47,7 @@ class MenuTableViewController: UITableViewController  {
                 print("Menu Item - Records")
                 let sb = UIStoryboard(name: "Main", bundle: nil)
                 let RecVC = sb.instantiateViewController(withIdentifier: "SB_Products") as! ProductsViewController
+                RecVC.customer = customer
                 self.present(RecVC, animated: true)
                 
             case 2:

@@ -28,9 +28,9 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         print("Customer from ProductsViewController - \(customer.custName)")
         
         products.append(Product(productId: 1, productName: "Stiches", Price: 10.0, author: "Mother Mother", year: 2008, mp3: "", img: "mm.jpg"))
-        products.append(Product(productId: 2, productName: "Guns&Roses", Price: 10.0, author: "Guns&Roses", year: 1985, mp3: "", img: "gunsr.jpg"))
-        products.append(Product(productId: 3, productName: "Led Zepellin II", Price: 12.0, author: "Led Zepelin", year: 1976, mp3: "", img: "ledz.jpg"))
-        products.append(Product(productId: 4, productName: "Madness", Price: 12.0, author: "Muse", year: 2014, mp3: "", img: "muse.jpg"))
+        products.append(Product(productId: 2, productName: "Guns&Roses", Price: 10.0, author: "Guns&Roses", year: 1985, mp3: "", img: "gunr3.jpg"))
+        products.append(Product(productId: 3, productName: "Led Zepellin II", Price: 12.0, author: "Led Zepelin", year: 1976, mp3: "", img: "ledz2.jpg"))
+        products.append(Product(productId: 4, productName: "The Resistance", Price: 12.0, author: "Muse", year: 2014, mp3: "", img: "muse2.jpg"))
         products.append(Product(productId: 5, productName: "Romance", Price: 9.0, author: "Rod Steward", year: 2014, mp3: "", img: "rods.jpeg"))
         
         for sc in customer.shoppingCart

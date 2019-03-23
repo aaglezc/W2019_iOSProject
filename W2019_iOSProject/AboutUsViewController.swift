@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import WebKit
 
 
-class AboutUsViewController: UIViewController {
+class AboutUsViewController: UIViewController, WKNavigationDelegate {
 
     
     
+    @IBOutlet weak var wvAbout: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+        let localFilePath = Bundle.main.url(forResource: "about", withExtension: "htm")
+        let myRequest = URLRequest(url: localFilePath!)
+        wvAbout.load(myRequest)
         
       
         // Do any additional setup after loading the view.
