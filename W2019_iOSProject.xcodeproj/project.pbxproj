@@ -53,6 +53,8 @@
 		EA9D95162248ABA00081677D /* 06 Rocky Mountain High.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95122248AA7B0081677D /* 06 Rocky Mountain High.m4a */; };
 		EA9D95172248ABAA0081677D /* 16 Little Sister.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95132248AA840081677D /* 16 Little Sister.m4a */; };
 		EA9D95192248AE550081677D /* good times.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95182248AE540081677D /* good times.m4a */; };
+		EA9D951F2248B3F40081677D /* madness.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D951E2248B3F40081677D /* madness.m4a */; };
+		EA9D95222248B68E0081677D /* welcomeJungle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95212248B6870081677D /* welcomeJungle.m4a */; };
 		EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB42243F4E200D35D83 /* AppDelegate.swift */; };
 		EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB62243F4E200D35D83 /* LoginViewController.swift */; };
 		EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD6CB82243F4E200D35D83 /* Main.storyboard */; };
@@ -148,6 +150,8 @@
 		EA9D95122248AA7B0081677D /* 06 Rocky Mountain High.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06 Rocky Mountain High.m4a"; sourceTree = SOURCE_ROOT; };
 		EA9D95132248AA840081677D /* 16 Little Sister.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16 Little Sister.m4a"; sourceTree = SOURCE_ROOT; };
 		EA9D95182248AE540081677D /* good times.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times.m4a"; sourceTree = "<group>"; };
+		EA9D951E2248B3F40081677D /* madness.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = madness.m4a; sourceTree = "<group>"; };
+		EA9D95212248B6870081677D /* welcomeJungle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcomeJungle.m4a; sourceTree = "<group>"; };
 		EABD6CB12243F4E200D35D83 /* W2019_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W2019_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABD6CB42243F4E200D35D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABD6CB62243F4E200D35D83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -342,6 +346,8 @@
 		EABD6D362245CAB700D35D83 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
+				EA9D95212248B6870081677D /* welcomeJungle.m4a */,
+				EA9D951E2248B3F40081677D /* madness.m4a */,
 				EA9D95182248AE540081677D /* good times.m4a */,
 				EABD6D392245CE3C00D35D83 /* 01 Rod.m4a */,
 				EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */,
@@ -487,7 +493,9 @@
 				EABD6D242245525100D35D83 /* rods.jpeg in Resources */,
 				EA9D94EE2246AFF80081677D /* cd.png in Resources */,
 				9B1661C422444B670024B2DB /* aboutus.png in Resources */,
+				EA9D951F2248B3F40081677D /* madness.m4a in Resources */,
 				EABD6CE62243FEC400D35D83 /* images.png in Resources */,
+				EA9D95222248B68E0081677D /* welcomeJungle.m4a in Resources */,
 				EA9D94E62246AD7A0081677D /* home.png in Resources */,
 				EA9D94F422480D000081677D /* ImagineCover.jpg in Resources */,
 				EA9D95142248AB980081677D /* 01 Off The Ground.m4a in Resources */,

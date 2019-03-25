@@ -98,15 +98,29 @@ class  ProductDetailAudioViewController: UIViewController , AVAudioPlayerDelegat
     
     @IBAction func BtnGoRecords(_ sender: UIBarButtonItem) {
         
+        if player != nil {
+            player.stop()
+            player = nil
+            lblActivy.stopAnimating()
+        }
+        
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let RecVC = sb.instantiateViewController(withIdentifier: "SB_Products") as! ProductsViewController
         
         RecVC.customer = customer
         self.present(RecVC, animated: true)
+        
+        
     }
     
     
     @IBAction func BtnGoMenu(_ sender: UIBarButtonItem) {
+        
+        if player != nil {
+            player.stop()
+            player = nil
+            lblActivy.stopAnimating()
+        }
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let MenuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController

@@ -129,7 +129,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         }
         
         let gTot = self.gT + Float(sCost!)!
-        self.lblGTot.text = "Grand Total: CAD $\(gTot)"
+        self.lblGTot.text = "Order Cost : CAD $\(gTot)"
         
         self.lblMsg.text = "Order Complted"
         
@@ -144,7 +144,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         
         
         self.btnPlaceOrder.isEnabled = false
-        self.txtType.isEnabled = false
+        
         
         self.txtRegion.isEnabled = false
         self.txtCost.isEnabled = false
