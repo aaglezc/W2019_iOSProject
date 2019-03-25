@@ -85,6 +85,15 @@ class MenuTableViewController: UITableViewController  {
         
         
     }
+    @IBAction func btnUserProfile(_ sender: UIBarButtonItem) {
+        
+        print("Menu Item - User Profile")
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let UserProVC = sb.instantiateViewController(withIdentifier: "SB_UserProfile") as! UserProfileViewController
+        
+        UserProVC.customer = customer
+        self.present(UserProVC, animated: true)
+    }
     /*
     // MARK: - Navigation
 

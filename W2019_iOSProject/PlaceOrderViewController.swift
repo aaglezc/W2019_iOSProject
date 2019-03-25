@@ -29,6 +29,10 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
     @IBOutlet weak var txtRegion: UITextField!
     @IBOutlet weak var txtCost: UITextField!
     
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblAddress: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,6 +40,13 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         
         tvOrder.delegate = self
         tvOrder.dataSource = self
+        
+        
+        self.lblName.text = customerPO.custName
+        self.lblAddress.text = customerPO.address
+        
+        
+        
         
         for o in customerPO.orders
         {
@@ -71,7 +82,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         
         productCell.lblID.text = "\(indexPath.row+1)"
         productCell.lblName.text = "\(Item.productName)"
-         productCell.lblQty.text = "$ \(Item.unitCost)"
+         productCell.lblPrice.text = "$ \(Item.unitCost)"
         productCell.lblQty.text = "\(Item.quantity)"
         productCell.lblTot.text = "$ \(Item.subTotal)"
         
@@ -85,9 +96,37 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
     }
 
     @IBAction func btnConfirm(_ sender: UIBarButtonItem) {
+        
+        let cred = customerPO.creditCardInfo
         let sType = self.txtType.text
         let sRegion = self.txtRegion.text
         let sCost = self.txtCost.text
+        
+        
+        if (sType!.isEmpty) || sRegion!.isEmpty  || sCost!.isEmpty
+        {
+            print("Empy boxes")
+            let alert = UIAlertController(title: "Invalid", message: "Please fill all the requiered fields *", preferredStyle: .alert)
+            
+            let addMessage = UIAlertAction(title: "OK", style: .default, handler: nil)
+            
+            alert.addAction(addMessage)
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        if cred.isEmpty
+        {
+            print("Empy boxes")
+            let alert = UIAlertController(title: "Invalid", message: "You nedd to register a valid Credit Card Number to complete the Order, Please update you profile.", preferredStyle: .alert)
+            
+            let addMessage = UIAlertAction(title: "OK", style: .default, handler: nil)
+            
+            alert.addAction(addMessage)
+            self.present(alert, animated: true, completion: nil)
+            return
+            
+        }
         
         let gTot = self.gT + Float(sCost!)!
         self.lblGTot.text = "Grand Total: CAD $\(gTot)"
@@ -95,8 +134,10 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         self.lblMsg.text = "Order Complted"
         self.btnPlaceOrder.isEnabled = false
         self.txtType.isEnabled = false
+        
         self.txtRegion.isEnabled = false
         self.txtCost.isEnabled = false
+        self.txtType.isEnabled = false
         
         self.btnCancel.title = "Menu"
         

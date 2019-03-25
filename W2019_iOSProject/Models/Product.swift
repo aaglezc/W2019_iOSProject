@@ -17,6 +17,7 @@ class Product : IDisplay
     private var _year : Int16
     private var _imgCover : String
     private var _mp3: String
+    private var _genero : Genero?
     
     var productId: Int
     {
@@ -105,6 +106,7 @@ class Product : IDisplay
         self._year = 0
         self._mp3 = String()
         self._imgCover = String()
+        
     }
     
     

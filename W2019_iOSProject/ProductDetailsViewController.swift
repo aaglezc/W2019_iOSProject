@@ -50,7 +50,7 @@ class ProductDetailsViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
-    @IBAction func btnAdd(_ sender: UIButton) {
+    @IBAction func BtnAdd(_ sender: UIButton) {
         
         let cartItem = ShoppingCart(cartId: customer.shoppingCart.count+1, productId: product, quantity: 1, dateAdded: Date())
         
@@ -58,11 +58,9 @@ class ProductDetailsViewController: UIViewController, AVAudioPlayerDelegate {
         
         lblMsg.text = "Item added"
         
-        
-        
     }
     
-    @IBAction func btnBack(_ sender: UIBarButtonItem) {
+    @IBAction func btnGoRecords(_ sender: UIBarButtonItem) {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let RecVC = sb.instantiateViewController(withIdentifier: "SB_Products") as! ProductsViewController
@@ -73,13 +71,15 @@ class ProductDetailsViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
-    @IBAction func btnGoMenu(_ sender: UIBarButtonItem) {
+    @IBAction func BtnGoMenu(_ sender: UIBarButtonItem) {
+        
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let MenuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
         
         MenuVC.customer = customer
         self.present(MenuVC, animated: true)
     }
+    
     
     @IBAction func Play(_ sender: UIButton) {
         do
