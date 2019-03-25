@@ -55,6 +55,7 @@
 		EA9D95192248AE550081677D /* good times.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95182248AE540081677D /* good times.m4a */; };
 		EA9D951F2248B3F40081677D /* madness.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D951E2248B3F40081677D /* madness.m4a */; };
 		EA9D95222248B68E0081677D /* welcomeJungle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95212248B6870081677D /* welcomeJungle.m4a */; };
+		EA9D9524224988E50081677D /* checkOut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D9523224988E50081677D /* checkOut.png */; };
 		EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB42243F4E200D35D83 /* AppDelegate.swift */; };
 		EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB62243F4E200D35D83 /* LoginViewController.swift */; };
 		EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD6CB82243F4E200D35D83 /* Main.storyboard */; };
@@ -152,6 +153,7 @@
 		EA9D95182248AE540081677D /* good times.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times.m4a"; sourceTree = "<group>"; };
 		EA9D951E2248B3F40081677D /* madness.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = madness.m4a; sourceTree = "<group>"; };
 		EA9D95212248B6870081677D /* welcomeJungle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcomeJungle.m4a; sourceTree = "<group>"; };
+		EA9D9523224988E50081677D /* checkOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkOut.png; path = ../../../../Downloads/checkOut.png; sourceTree = "<group>"; };
 		EABD6CB12243F4E200D35D83 /* W2019_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W2019_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABD6CB42243F4E200D35D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABD6CB62243F4E200D35D83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				EA9D94F322480CFF0081677D /* 220px-ImagineCover.jpg */,
 				EA9D94F222480CFF0081677D /* ImagineCover.jpg */,
 				EA9D94E22246AD7A0081677D /* checkOut.png */,
+				EA9D9523224988E50081677D /* checkOut.png */,
 				EA9D94E02246AD7A0081677D /* checkOut2.png */,
 				EA9D94E12246AD7A0081677D /* checkOut3.png */,
 				EA9D94DE2246AD790081677D /* contac.png */,
@@ -510,6 +513,7 @@
 				EA9D94E82246AD7A0081677D /* checkOut3.png in Resources */,
 				EA9D94C22245DDEE0081677D /* shopcart.png in Resources */,
 				9B1661D02244674B0024B2DB /* fb.png in Resources */,
+				EA9D9524224988E50081677D /* checkOut.png in Resources */,
 				9B1661C622444B6C0024B2DB /* logout.png in Resources */,
 				EA9D94DC2246A5D00081677D /* muse2.jpg in Resources */,
 				EABD6D3B2245CE3D00D35D83 /* 01 Rod.m4a in Resources */,
