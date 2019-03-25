@@ -28,13 +28,21 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         print("Customer from ProductsViewController - \(customer.custName)")
         
         products.append(Product(productId: 1, productName: "Stiches", Price: 10.0, author: "Mother Mother", year: 2008, mp3: "08 Bit By Bit", img: "mm.jpg"))
+        
         products.append(Product(productId: 2, productName: "Guns&Roses", Price: 10.0, author: "Guns&Roses", year: 1985, mp3: "", img: "gunr3.jpg"))
-        products.append(Product(productId: 3, productName: "Led Zepellin II", Price: 12.0, author: "Led Zepelin", year: 1976, mp3: "", img: "ledz2.jpg"))
+        
+        products.append(Product(productId: 3, productName: "Led Zepellin II", Price: 12.0, author: "Led Zepelin", year: 1976, mp3: "good times", img: "ledz2.jpg"))
+        
         products.append(Product(productId: 4, productName: "The Resistance", Price: 12.0, author: "Muse", year: 2014, mp3: "", img: "muse2.jpg"))
+        
         products.append(Product(productId: 5, productName: "Romance", Price: 9.0, author: "Rod Steward", year: 2014, mp3: "01 Rod", img: "rods.jpeg"))
-         products.append(Product(productId: 6, productName: "Imagine", Price: 9.0, author: "Jhon Lenon", year: 1971, mp3: "05 I Don't Wanna Be A Soldier Mama", img: "ImagineComp.jpeg"))
-        products.append(Product(productId: 7, productName: "John Denver definitive all-time GH", Price: 9.0, author: "John Denver", year: 1969, mp3: "06 Rocky Mountain High.m4a", img: "johndenver.jpg"))
-        products.append(Product(productId: 8, productName: "Off the Ground", Price: 13.0, author: "Paul McCartney", year: 1990, mp3: "01 Off The Ground", img: "Off_the_Ground.jpg"))
+        
+         products.append(Product(productId: 6, productName: "Imagine", Price: 9.0, author: "Jhon Lenon", year: 1971, mp3: "05 I Dont", img: "ImagineComp.jpeg"))
+        
+        products.append(Product(productId: 7, productName: "John Denver definitive all-time GH", Price: 9.0, author: "John Denver", year: 1969, mp3: "06 Rocky Mountain High", img: "johndenver.jpg"))
+        
+        products.append(Product(productId: 8, productName: "Off The Ground", Price: 13.0, author: "Paul McCartney", year: 1990, mp3: "01 Off The Ground", img: "Off_the_Ground.jpg"))
+        
         products.append(Product(productId: 9, productName: "Elvis 2nd to None", Price: 12.0, author: "Elvis Presley", year: 2012, mp3: "16 Little Sister", img: "elvis2nd.jpg"))
         
         for sc in customer.shoppingCart
