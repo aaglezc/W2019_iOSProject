@@ -92,7 +92,7 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120.0
+        return 70.0
     }
 
     @IBAction func btnConfirm(_ sender: UIBarButtonItem) {
@@ -132,6 +132,17 @@ class PlaceOrderViewController: UIViewController,UITableViewDelegate, UITableVie
         self.lblGTot.text = "Grand Total: CAD $\(gTot)"
         
         self.lblMsg.text = "Order Complted"
+        
+        let alert = UIAlertController(title: "Invalid", message: "Orer has successfully completed, thank for buying in our app!!", preferredStyle: .alert)
+        
+        let addMessage = UIAlertAction(title: "OK", style: .default, handler: nil)
+        
+        alert.addAction(addMessage)
+        self.present(alert, animated: true, completion: nil)
+        return
+        
+        
+        
         self.btnPlaceOrder.isEnabled = false
         self.txtType.isEnabled = false
         

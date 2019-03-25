@@ -56,36 +56,43 @@ class LoginViewController: UIViewController {
         {
             if pwd == "123"
             {
+
+                // Save data using user defaults
+                let RememberUD = UserDefaults.standard
                 if swRemember.isOn == true
                 {
-                    // Save data using user defaults
-                    let RememberUD = UserDefaults.standard
-                    if swRemember.isOn == true
-                    {
-                        RememberUD.set(email, forKey: "email")
-                        RememberUD.set(pwd, forKey: "pwd")
-                    }
-                    else
-                    {
-                        RememberUD.removeObject(forKey: "email")
-                        RememberUD.removeObject(forKey: "pwd")
-                    }
-                    
-                    self.customer.email = email!
-                    self.customer.password = pwd!
-                    self.customer.custName = "Arthur G."
-                    
-                    // Redirecting to the other ViewController
-                    let sb = UIStoryboard(name: "Main", bundle: nil)
-                    
-                    let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
-                    
-                    menuVC.customer = self.customer
-                    
-                    self.present(menuVC, animated: true)
-                    
+                    RememberUD.set(email, forKey: "email")
+                    RememberUD.set(pwd, forKey: "pwd")
+                }
+                else
+                {
+                    RememberUD.removeObject(forKey: "email")
+                    RememberUD.removeObject(forKey: "pwd")
                 }
                 
+                self.customer.email = email!
+                self.customer.password = pwd!
+                self.customer.custName = "Arthur G."
+                
+                // Redirecting to the other ViewController
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                
+                let menuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
+                
+                menuVC.customer = self.customer
+                
+                self.present(menuVC, animated: true)
+
+            }
+            else
+            {
+                let alert = UIAlertController(title: "Invalid", message: " Password is wrong. Please Try Again!", preferredStyle: .alert)
+                
+                let addMessage = UIAlertAction(title: "OK", style: .default, handler: nil)
+                
+                alert.addAction(addMessage)
+                self.present(alert, animated: true, completion: nil)
+                return
             }
         }
             
@@ -99,8 +106,6 @@ class LoginViewController: UIViewController {
             
             alert.addAction(addMessage)
             self.present(alert, animated: true, completion: nil)
-            
-            
         
         }
         

@@ -84,6 +84,16 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         
         self.present(PrDetVC, animated: true)
     }
+    
+    @IBAction func btnGoMenu(_ sender: UIBarButtonItem) {
+        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let MenuVC = sb.instantiateViewController(withIdentifier: "SB_Menu") as! MenuTableViewController
+        
+        MenuVC.customer = customer
+        self.present(MenuVC, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

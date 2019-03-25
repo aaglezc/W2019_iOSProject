@@ -16,8 +16,6 @@ class CheckOutTableViewCell: UITableViewCell {
     @IBOutlet weak var lblTot: UILabel!
     
     
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
