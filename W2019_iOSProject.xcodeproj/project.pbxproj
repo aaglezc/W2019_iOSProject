@@ -32,8 +32,6 @@
 		EA9D94E62246AD7A0081677D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94DF2246AD7A0081677D /* home.png */; };
 		EA9D94E72246AD7A0081677D /* checkOut2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94E02246AD7A0081677D /* checkOut2.png */; };
 		EA9D94E82246AD7A0081677D /* checkOut3.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94E12246AD7A0081677D /* checkOut3.png */; };
-		EA9D94E92246AD7A0081677D /* checkOut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94E22246AD7A0081677D /* checkOut.png */; };
-		EA9D94EC2246AF000081677D /* logOut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94EB2246AEFE0081677D /* logOut.png */; };
 		EA9D94EE2246AFF80081677D /* cd.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94ED2246AFF80081677D /* cd.png */; };
 		EA9D94F02246B4520081677D /* red-location-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94EF2246B4520081677D /* red-location-icon.png */; };
 		EA9D94F422480D000081677D /* ImagineCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA9D94F222480CFF0081677D /* ImagineCover.jpg */; };
@@ -48,14 +46,7 @@
 		EA9D950B224836280081677D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D950A224836270081677D /* play.png */; };
 		EA9D950D22483A860081677D /* addsc.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D950C22483A850081677D /* addsc.png */; };
 		EA9D950F2248440C0081677D /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D950E2248440C0081677D /* UserProfileViewController.swift */; };
-		EA9D95142248AB980081677D /* 01 Off The Ground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95102248AA6A0081677D /* 01 Off The Ground.m4a */; };
-		EA9D95152248AB9D0081677D /* 05 I Dont.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95112248AA7B0081677D /* 05 I Dont.m4a */; };
-		EA9D95162248ABA00081677D /* 06 Rocky Mountain High.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95122248AA7B0081677D /* 06 Rocky Mountain High.m4a */; };
-		EA9D95172248ABAA0081677D /* 16 Little Sister.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95132248AA840081677D /* 16 Little Sister.m4a */; };
-		EA9D95192248AE550081677D /* good times.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95182248AE540081677D /* good times.m4a */; };
-		EA9D951F2248B3F40081677D /* madness.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D951E2248B3F40081677D /* madness.m4a */; };
-		EA9D95222248B68E0081677D /* welcomeJungle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95212248B6870081677D /* welcomeJungle.m4a */; };
-		EA9D9524224988E50081677D /* checkOut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D9523224988E50081677D /* checkOut.png */; };
+		EA9D95282249A51A0081677D /* logOut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9D95272249A51A0081677D /* logOut.png */; };
 		EABD6CB52243F4E200D35D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB42243F4E200D35D83 /* AppDelegate.swift */; };
 		EABD6CB72243F4E200D35D83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6CB62243F4E200D35D83 /* LoginViewController.swift */; };
 		EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD6CB82243F4E200D35D83 /* Main.storyboard */; };
@@ -83,8 +74,6 @@
 		EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2C22456A6100D35D83 /* disk2.jpeg */; };
 		EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D2D22456A6200D35D83 /* disk.jpg */; };
 		EABD6D352245BD9100D35D83 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */; };
-		EABD6D3B2245CE3D00D35D83 /* 01 Rod.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D392245CE3C00D35D83 /* 01 Rod.m4a */; };
-		EABD6D3C2245CE3D00D35D83 /* 08 Bit By Bit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,8 +119,6 @@
 		EA9D94DF2246AD7A0081677D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		EA9D94E02246AD7A0081677D /* checkOut2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkOut2.png; sourceTree = "<group>"; };
 		EA9D94E12246AD7A0081677D /* checkOut3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkOut3.png; sourceTree = "<group>"; };
-		EA9D94E22246AD7A0081677D /* checkOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkOut.png; path = ../../../../Downloads/checkOut.png; sourceTree = "<group>"; };
-		EA9D94EB2246AEFE0081677D /* logOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logOut.png; path = ../../../../Downloads/logOut.png; sourceTree = "<group>"; };
 		EA9D94ED2246AFF80081677D /* cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd.png; sourceTree = "<group>"; };
 		EA9D94EF2246B4520081677D /* red-location-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-location-icon.png"; sourceTree = "<group>"; };
 		EA9D94F222480CFF0081677D /* ImagineCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImagineCover.jpg; sourceTree = "<group>"; };
@@ -146,14 +133,7 @@
 		EA9D950A224836270081677D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		EA9D950C22483A850081677D /* addsc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addsc.png; sourceTree = "<group>"; };
 		EA9D950E2248440C0081677D /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
-		EA9D95102248AA6A0081677D /* 01 Off The Ground.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Off The Ground.m4a"; sourceTree = SOURCE_ROOT; };
-		EA9D95112248AA7B0081677D /* 05 I Dont.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05 I Dont.m4a"; sourceTree = SOURCE_ROOT; };
-		EA9D95122248AA7B0081677D /* 06 Rocky Mountain High.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06 Rocky Mountain High.m4a"; sourceTree = SOURCE_ROOT; };
-		EA9D95132248AA840081677D /* 16 Little Sister.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16 Little Sister.m4a"; sourceTree = SOURCE_ROOT; };
-		EA9D95182248AE540081677D /* good times.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times.m4a"; sourceTree = "<group>"; };
-		EA9D951E2248B3F40081677D /* madness.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = madness.m4a; sourceTree = "<group>"; };
-		EA9D95212248B6870081677D /* welcomeJungle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcomeJungle.m4a; sourceTree = "<group>"; };
-		EA9D9523224988E50081677D /* checkOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkOut.png; path = ../../../../Downloads/checkOut.png; sourceTree = "<group>"; };
+		EA9D95272249A51A0081677D /* logOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logOut.png; sourceTree = "<group>"; };
 		EABD6CB12243F4E200D35D83 /* W2019_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W2019_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABD6CB42243F4E200D35D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABD6CB62243F4E200D35D83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -187,8 +167,6 @@
 		EABD6D2C22456A6100D35D83 /* disk2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk2.jpeg; sourceTree = "<group>"; };
 		EABD6D2D22456A6200D35D83 /* disk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disk.jpg; sourceTree = "<group>"; };
 		EABD6D342245BD9100D35D83 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
-		EABD6D392245CE3C00D35D83 /* 01 Rod.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Rod.m4a"; sourceTree = SOURCE_ROOT; };
-		EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Bit By Bit.m4a"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,8 +276,6 @@
 				EA9D94F6224813270081677D /* Off_the_Ground.jpg */,
 				EA9D94F322480CFF0081677D /* 220px-ImagineCover.jpg */,
 				EA9D94F222480CFF0081677D /* ImagineCover.jpg */,
-				EA9D94E22246AD7A0081677D /* checkOut.png */,
-				EA9D9523224988E50081677D /* checkOut.png */,
 				EA9D94E02246AD7A0081677D /* checkOut2.png */,
 				EA9D94E12246AD7A0081677D /* checkOut3.png */,
 				EA9D94DE2246AD790081677D /* contac.png */,
@@ -322,8 +298,8 @@
 				9B1661CF2244674B0024B2DB /* fb.png */,
 				9B1661C122444B610024B2DB /* checkout.png */,
 				9B1661C9224450A10024B2DB /* AG-Red.png */,
+				EA9D95272249A51A0081677D /* logOut.png */,
 				9B1661C522444B6B0024B2DB /* logout.png */,
-				EA9D94EB2246AEFE0081677D /* logOut.png */,
 				9B1661C322444B670024B2DB /* aboutus.png */,
 				EA9D94C12245DDED0081677D /* shopcart.png */,
 			);
@@ -349,15 +325,6 @@
 		EABD6D362245CAB700D35D83 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
-				EA9D95212248B6870081677D /* welcomeJungle.m4a */,
-				EA9D951E2248B3F40081677D /* madness.m4a */,
-				EA9D95182248AE540081677D /* good times.m4a */,
-				EABD6D392245CE3C00D35D83 /* 01 Rod.m4a */,
-				EABD6D3A2245CE3C00D35D83 /* 08 Bit By Bit.m4a */,
-				EA9D95102248AA6A0081677D /* 01 Off The Ground.m4a */,
-				EA9D95112248AA7B0081677D /* 05 I Dont.m4a */,
-				EA9D95122248AA7B0081677D /* 06 Rocky Mountain High.m4a */,
-				EA9D95132248AA840081677D /* 16 Little Sister.m4a */,
 			);
 			path = mp3;
 			sourceTree = "<group>";
@@ -468,40 +435,31 @@
 			files = (
 				EABD6CBF2243F4E300D35D83 /* LaunchScreen.storyboard in Resources */,
 				EABD6D252245525100D35D83 /* muse.jpg in Resources */,
-				EA9D94E92246AD7A0081677D /* checkOut.png in Resources */,
-				EA9D95162248ABA00081677D /* 06 Rocky Mountain High.m4a in Resources */,
 				EA9D94E72246AD7A0081677D /* checkOut2.png in Resources */,
 				9B1661C022444B5A0024B2DB /* contact.png in Resources */,
 				EA9D950D22483A860081677D /* addsc.png in Resources */,
 				EA9D950122481CD30081677D /* elvis.jpg in Resources */,
 				EABD6D272245525100D35D83 /* mm.jpg in Resources */,
+				EA9D95282249A51A0081677D /* logOut.png in Resources */,
 				EA9D94F8224813280081677D /* Off_the_Ground.jpg in Resources */,
 				EA9D94E52246AD7A0081677D /* contac.png in Resources */,
 				9B1661D4224474330024B2DB /* map.png in Resources */,
-				EA9D94EC2246AF000081677D /* logOut.png in Resources */,
 				EABD6D2F22456A6200D35D83 /* disk.jpg in Resources */,
-				EABD6D3C2245CE3D00D35D83 /* 08 Bit By Bit.m4a in Resources */,
 				EABD6CBC2243F4E300D35D83 /* Assets.xcassets in Resources */,
 				EABD6D2E22456A6200D35D83 /* disk2.jpeg in Resources */,
-				EA9D95152248AB9D0081677D /* 05 I Dont.m4a in Resources */,
 				EA9D94D222469FFE0081677D /* about.htm in Resources */,
 				EA9D9509224830B20081677D /* stop.png in Resources */,
 				EABD6CBA2243F4E200D35D83 /* Main.storyboard in Resources */,
-				EA9D95172248ABAA0081677D /* 16 Little Sister.m4a in Resources */,
 				EA9D94DA2246A5440081677D /* ledz2.jpg in Resources */,
 				EA9D950322481E0B0081677D /* elvis2nd.jpg in Resources */,
 				EA9D94F522480D000081677D /* 220px-ImagineCover.jpg in Resources */,
-				EA9D95192248AE550081677D /* good times.m4a in Resources */,
 				EA9D94F02246B4520081677D /* red-location-icon.png in Resources */,
 				EABD6D242245525100D35D83 /* rods.jpeg in Resources */,
 				EA9D94EE2246AFF80081677D /* cd.png in Resources */,
 				9B1661C422444B670024B2DB /* aboutus.png in Resources */,
-				EA9D951F2248B3F40081677D /* madness.m4a in Resources */,
 				EABD6CE62243FEC400D35D83 /* images.png in Resources */,
-				EA9D95222248B68E0081677D /* welcomeJungle.m4a in Resources */,
 				EA9D94E62246AD7A0081677D /* home.png in Resources */,
 				EA9D94F422480D000081677D /* ImagineCover.jpg in Resources */,
-				EA9D95142248AB980081677D /* 01 Off The Ground.m4a in Resources */,
 				EA9D94D72246A4290081677D /* gunr3.jpg in Resources */,
 				EA9D94F9224813280081677D /* ImagineComp.jpeg in Resources */,
 				9B1661C82244509C0024B2DB /* aboutus1.png in Resources */,
@@ -513,10 +471,8 @@
 				EA9D94E82246AD7A0081677D /* checkOut3.png in Resources */,
 				EA9D94C22245DDEE0081677D /* shopcart.png in Resources */,
 				9B1661D02244674B0024B2DB /* fb.png in Resources */,
-				EA9D9524224988E50081677D /* checkOut.png in Resources */,
 				9B1661C622444B6C0024B2DB /* logout.png in Resources */,
 				EA9D94DC2246A5D00081677D /* muse2.jpg in Resources */,
-				EABD6D3B2245CE3D00D35D83 /* 01 Rod.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
